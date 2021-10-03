@@ -1,11 +1,12 @@
-const express = require('express')
-const app = express()
-const port = 3000
+import { tokenId, serverId, channelId } from "../config.js"
+import { createServer } from "./server.js"
+import { Client, Intents } from "discord.js"
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
+const app = createServer(client)
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
-})
+client.login(tokenId)
+
+app.listen(3000, () => {
+  console.log("Express server is listening on port 3000")
+});
