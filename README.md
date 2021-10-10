@@ -8,7 +8,7 @@ To make sure of the api we will need to make a Discord Applcation & a bot for ou
 
 ### Creating our Discord application
 
-// discordBotMessage image here
+![alt text](https://github.com/OTAL2020/messaging-api/blob/main/public/Images/discordBotMessage.png)
 
 First of all login to discord on their website, then head over to the [Application](https://discord.com/developers/applications)site.
 Click on create Applications button and give your application a name, for this tutorial i will name the application DiscordAPIDocumentation
