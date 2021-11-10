@@ -44,4 +44,4 @@ once another guild onwer clicks this links and authorizes your bot onto their se
 
 if you wish to add this example bot we made today, i will leave the link for you to add it in [DiscordAPIDocumentationBot](https://discord.com/api/oauth2/authorize?client_id=896600592691109938&permissions=8&redirect_uri=https%3A%2F%2Fwww.google.com%2F&scope=bot)
 
-## Next tab TBC
+## Next tab TBC when updated
