@@ -37,6 +37,3 @@ lerna-debug.log*
 
 #env - .env includes sensitive information so it should not be put in source control
 .env
-.env.example
-.env.local
-.env.staging
