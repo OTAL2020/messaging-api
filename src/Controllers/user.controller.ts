@@ -1,6 +1,5 @@
-import { Body, Controller, ParseIntPipe, Post, UsePipes, ValidationPipe } from '@nestjs/common';
-import { userService } from 'src/Services/user.service';
-
+import { Body, Controller, Post, UsePipes, ValidationPipe } from '@nestjs/common';
+import { userService } from '../Services/user.service';
 @Controller('user')
 export class UserController {
     constructor(private userService: userService) {}
