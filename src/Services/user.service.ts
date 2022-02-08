@@ -1,10 +1,10 @@
 import { Injectable } from "@nestjs/common";
+import { userDTO } from "src/DTO/user.dto";
 
 @Injectable()
 export class userService{
 
-    createUser(data)
-    {
-        return data; // send data to DB when its up and running
+    createUser(userData: userDTO){
+        return userData;
     }
 }
