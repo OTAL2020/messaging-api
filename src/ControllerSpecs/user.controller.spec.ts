@@ -18,11 +18,9 @@ describe('UserController', () => {
   describe('createUser', () => {
     it('should respond with json object', async () => {
       const result = {userId : 1, username :  "lewis", level : 4, guildId : 12345}
-      console.log(result);
 
       jest.spyOn(UserService, 'createUser').mockImplementation(() => result)
-      
-      expect(await userController.createUser(result)).toReturn;
+      expect(await userController.createUser(result)).toReturn();
     });
   });
 });
