@@ -1,6 +1,6 @@
 import { IsNotEmpty, IsInt, IsString } from "class-validator";
 
-export class userDTO {
+export class createuserDTO {
     @IsNotEmpty({ message: "UserId Field is Required" })
     @IsInt({ message: "UserId Field Must Contain A Interger"})
     userId: number;
