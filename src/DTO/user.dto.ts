@@ -24,7 +24,7 @@ export class readuserDTO {
     userId: number;
 }
 
-export class edituserDTO {
+export class updateuserDTO {
     @IsNotEmpty({ message: "UserId Field is Required" })
     @IsInt({ message: "UserId Field Must Contain A Interger"})
     userId: number;
